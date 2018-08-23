@@ -29,6 +29,35 @@ table {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
 }
+/**Transição imagem**/
+#galeria img{
+  transition: all .4s;
+}
+/**Labels da sessão oficina**/
+.section-title label{
+  background-color: #FF4500;
+  display: block;
+  width: 100%;
+  float:left;
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+/**inputs checados**/
+
+input:checked + label{
+  background-color: #FF8C00
+}
+input{
+  display: none;
+}
+/**Separação por tipo de escola**/
+#bt_pedro_augusto:checked ~ #galeria .codai, 
+#bt_pedro_augusto:checked ~ #galeria .tatuoca-01{
+  opacity: .4;
+  transform: scale(0.5); 
+}
+
 
 /**media Queries**/
 
