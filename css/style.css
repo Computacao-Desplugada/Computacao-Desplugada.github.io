@@ -43,6 +43,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   cursor: pointer;
 }
+.menu ul{
+  display: table;
+  list-style: none;
+}
+.galeria img{
+  cursor: pointer;
+  transition: all .5s ease;
+}
+.active{
+  border-bottom: 4px solid #FF4500;
+}
+
 /**inputs checados**/
 
 input:checked + label{
