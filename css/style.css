@@ -29,6 +29,100 @@ table {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
 }
+
+/** Texto sobre **/
+#sobre{
+  background-color: #d2b48c;
+}
+.sec-para{
+  color: #fff;
+}
+.txt-para{
+  color: #fff;
+}
+
+/**Efeito Contador**/
+#about-bg {
+  margin-top: 70px;
+  margin-left: 8%;
+  margin-right: 8%;
+  position: relative;
+  border: 5px solid #FFD34E;
+  padding: 40px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: uppercase;
+  padding: 20px 0;
+  color: #FF4500;
+}
+
+.about-bg-heading {
+	font-family: 'Josefin', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	line-height: 40px;
+	z-index: -2;
+}
+
+.about-bg-heading h1 {
+	font-size: 40px
+}
+
+.about-bg-heading p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.about-bg-wrapper {
+	color: #000;
+  margin-top: 30px;
+  margin-left: 90px;
+	z-index: -2;
+}
+
+#about-bg .about-bg-wrapper .count {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 45px;
+	margin-right: 10px;
+	text-align: center;
+	float: left;
+	color: #FF4500;
+}
+
+#about-bg .about-bg-wrapper p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 30px;
+	float: left;
+}
+
+/*Media*/
+@media screen and (min-width: 320px) and (max-width: 520px) {
+	.about-bg-heading h1 {
+		font-size: 28px;
+	}
+
+	.about-bg-wrapper {
+		margin-left: 25%;
+	}
+
+}
+
+/*Media*/
+@media screen and (min-width: 521px) and (max-width: 980px) {
+	.about-bg-heading h1 {
+		font-size: 30px;
+	}
+
+	.about-bg-wrapper {
+		margin-left: 35%;
+	}
+
+}
 /**Transição imagem**/
 #galeria img{
   transition: all .4s;
