@@ -140,6 +140,19 @@ h1, h2, h3, h4, h5, h6 {
 .menu ul{
   display: table;
   list-style: none;
+  
+}
+.menu ul a{
+  color: #fff;
+  font-weight: bold;
+}
+.li a:hover{
+  background-color: #FFD34E !important;
+}
+.menu ul li{
+  background-color:#FF4500 ;
+  margin-bottom: 3px;
+  padding: 2px;
 }
 .galeria img{
   cursor: pointer;
@@ -157,13 +170,6 @@ input:checked + label{
 input{
   display: none;
 }
-/**Separação por tipo de escola**/
-#bt_pedro_augusto:checked ~ #galeria .codai, 
-#bt_pedro_augusto:checked ~ #galeria .tatuoca-01{
-  opacity: .4;
-  transform: scale(0.5); 
-}
-
 
 /**media Queries**/
 
